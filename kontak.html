@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontak GoodDay</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+
+    body {
+        background-color: #fafafa;
+        text-align: center;
+        color: #07544f;
+    }
+
+    /* Navbar */
+    .navbar {
+        width: 100%;
+        padding: 20px 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .logo {
+        position: absolute;
+        top: 20px;
+        left: 40px;
+        height: 100px;
+        width: auto;
+    }
+
+    .navbar ul {
+        display: flex;
+        gap: 20px;
+        list-style: none;
+    }
+
+    .navbar ul li a {
+        text-decoration: none;
+        color: #07544f;
+        font-weight: 700;
+        font-size: 20px;
+        text-transform: uppercase;
+        padding: 8px 12px;
+        transition: 0.3s;
+    }
+
+    .navbar ul li a:hover {
+        color: white;
+        background-color: #07544f;
+        border-radius: 25px;
+    }
+
+    h1, h3, h5, h6 {
+        margin: 15px 0;
+    }
+
+    /* Container kontak */
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin: 30px 0;
+    }
+
+    .col-4 {
+        width: 22%;
+        text-align: center;
+    }
+
+    .col-4 img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    #map {
+        margin: 20px auto;
+        display: block;
+        max-width: 90%;
+        height: auto;
+    }
+
+    @media (max-width: 768px) {
+        .col-4 {
+            width: 45%;
+            margin-bottom: 20px;
+        }
+    }
+
+</style>
+</head>
+<body>
+
+<div class="navbar">
+    <img class="logo" src="GoodDayy4-removebg-preview.jpg" alt="Logo">
+    <ul>
+        <li><a href="index.html"><u>Home</u></a></li>
+        <li><a href="profil.html"><u>profil</u></a></li>
+        <li><a href="Galery.html"><u>Galery</u></a></li>
+        <li class="active"><a href="kontak.html"><u>kontak</u></a></li>
+    </ul>
+</div>
+
+<h1>HUBUNGI KAMI</h1>
+<p>KARNA HIDUP PUNYA BANYAK RASA</p>
+
+<div class="container">
+    <div class="col-4">
+        <h4><img src="whatsapp.jpg" height="100" width="100"><a href="index.html"></a></h4>
+        <h3>WHATSAPP</h3>
+        <h6>0831-3723-2380.</h6>
+    </div>
+    <div class="col-4">
+        <h4><img src="instagram.webp" height="100" width="100"><a href="index.html"></a></h4>
+        <h3>INSTAGRAM</h3>
+        <h5>@GoodDayCoffeeID</h5>
+    </div>
+    <div class="col-4">
+        <h4><img src="email.png" height="100" width="100"><a href="index.html"></a></h4>
+        <h3>EMAIL</h3>
+        <h5>GoodDay Coffee Indonesia</h5>
+    </div>
+</div>
+
+<img id="map" src="lokasi2.png" alt="Lokasi">
+<h1>GoodDayOfficial</h1>
+
+</body>
+</html>
